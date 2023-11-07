@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+#new-item {
+    margin: 0.5em;
+}
+
+button {
+    cursor: pointer;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin: 0.5em 0;
+    display: flex;
+    align-items: center;
+}
+
+input[type="text"] {
+    margin-right: 0.5em;
+}
+
+.remove-link {
+    margin-left: auto;
+    color: blue;
+    cursor: pointer;
+    text-decoration: underline;
+}
